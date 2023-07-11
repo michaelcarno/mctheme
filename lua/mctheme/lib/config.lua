@@ -1,7 +1,7 @@
 M = {}
 
 M.default = {
-  palette = "mctheme",
+  palette = "astrodark",
   termguicolors = true,
   terminal_colors = true,
   background = "dark",

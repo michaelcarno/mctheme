@@ -41,8 +41,9 @@ end
 
 function M.set_palettes(opts)
   local palette = require("mctheme.palettes.mctheme")
-  palette = vim.tbl_deep_extend("force", palette, opts.palettes.global)
-  return vim.tbl_deep_extend("force", palette, opts.palettes[opts.palette])
+  return palette
+  -- palette = vim.tbl_deep_extend("force", palette, opts.palettes.global)
+  -- return vim.tbl_deep_extend("force", palette, opts.palettes[opts.palette])
 end
 
 function M.set_highlights(opts, highlights, theme)
