@@ -25,6 +25,7 @@ local function callback()
     ProviderTruncateLine = { fg = C.overlay0 },
     -- LSP Semantic Tokens
     -- Ref: :help lsp-semantic-highlight
+    ['@lsp.type.decorator'] = { fg = C.yellow, bg = C.none },
     ["@lsp.type.builtinType"] = { fg = C.green, bg = C.none },
     ["@lsp.type.keyword"] = { link = "Keyword" },
     ["@lsp.type.operator"] = { link = "Operator" },

@@ -72,7 +72,7 @@ local function callback()
     ["@text.title"] = { fg = C.text, bold = true },
     ["@text.literal"] = { fg = C.text },
     ["@text.quote"] = { fg = C.text, italic = true },
-    ["@text.uri"] = { fg = C.green, italic = false, underline = true },
+    ["@text.uri"] = { fg = C.green, italic = false },
     ["@text.math"] = { fg = C.blue },
     ["@text.environment"] = { fg = C.orange },
     ["@text.environment.name"] = { fg = C.blue },
