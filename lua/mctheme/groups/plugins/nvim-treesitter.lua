@@ -14,8 +14,8 @@ local function callback()
     ["@punctuation.special"] = { link = "Special" },
     -- literals
     ["@string"] = { link = "String" },
-    ["@string.escape"] = { fg = C.red },
-    ["@string.regex"] = { fg = C.red },
+    ["@string.escape"] = { link = "String" },
+    ["@string.regex"] = { link = "String" },
     ["@string.special"] = { link = "String" },
     ["@character"] = { link = "Character" },
     ["@character.special"] = { link = "SpecialChar" },
