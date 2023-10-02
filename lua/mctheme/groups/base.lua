@@ -1,6 +1,6 @@
 local function callback()
   return {
-    Normal = { fg = C.text, bg = C.base },
+    Normal = { fg = C.toml, bg = C.base },
     NormalNC = { fg = C.text, bg = C.base },
     Title = { fg = C.cyan, bg = C.none },
     Cursor = { fg = C.none, bg = C.none },
@@ -68,7 +68,7 @@ local function callback()
     WildMenu = { fg = C.overlay2, bg = C.blue },
     EndOfBuffer = { fg = C.base, bg = C.none },
     FloatBorder = { fg = C.surface1, bg = C.base },
-    MatchParen = { fg = C.none, bg = C.overlay1 },
+    MatchParen = { fg = C.none, bg = C.matchParentBg, underline = false, bold = false },
   }
 end
 
