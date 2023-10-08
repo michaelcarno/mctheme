@@ -36,6 +36,7 @@ local colors = {
   jpeg = "#c882e7",
   jpg = "#c882e7",
   js = "#ebcb8b",
+  json = "#ebcb1b",
   jsx = "#519ab8",
   kt = "#7bc99c",
   lock = "#c4c720",
