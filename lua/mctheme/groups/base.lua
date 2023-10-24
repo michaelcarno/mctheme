@@ -1,6 +1,6 @@
 local function callback()
   return {
-    Normal = { fg = C.toml, bg = C.base },
+    Normal = { fg = C.text, bg = C.base },
     NormalNC = { fg = C.text, bg = C.base },
     Title = { fg = C.cyan, bg = C.none },
     Cursor = { fg = C.none, bg = C.none },
