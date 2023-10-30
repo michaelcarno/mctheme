@@ -75,7 +75,7 @@ function M.set_terminal_colors()
   vim.g.terminal_color_1 = C.red
   vim.g.terminal_color_2 = C.light_green
   vim.g.terminal_color_3 = C.dark_yellow
-  vim.g.terminal_color_4 = C.mantle
+  vim.g.terminal_color_4 = C.surface1
   vim.g.terminal_color_5 = C.purple
   vim.g.terminal_color_6 = C.cyan
   vim.g.terminal_color_7 = C.surface2
