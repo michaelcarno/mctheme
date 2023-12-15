@@ -21,4 +21,5 @@ return {
   ["vimwiki"] = "vimwiki",
   ["which-key.nvim"] = "which-key",
   ["noice.nvim"] = "noice",
+  ["neogit"] = "neogit"
 }
