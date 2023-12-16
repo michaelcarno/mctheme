@@ -22,5 +22,5 @@ return {
   ["which-key.nvim"] = "which-key",
   ["noice.nvim"] = "noice",
   ["neogit"] = "neogit",
-  ["nvim-bqf"] = "bqf"
+  ["nvim-bqf"] = "nvim-bqf"
 }
