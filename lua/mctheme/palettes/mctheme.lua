@@ -1,9 +1,13 @@
 local colors = {
   none = "NONE",
   red = "#e06c75",
+  darkred = "#460D12",
   blue = "#61afef",
   green = "#98c379",
+  darkgreen = "#182B18",
   yellow = "#e5c06b",
+  darkyellow = "#3A3721",
+  verydarkyellow = "#532B00",
   purple = "#c678dd",
   cyan = "#56b6c2",
   orange = "#d19a66",
