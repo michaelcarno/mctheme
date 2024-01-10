@@ -67,7 +67,7 @@ local function callback()
     WarningMsg = { fg = C.yellow, bg = C.none },
     WildMenu = { fg = C.overlay2, bg = C.blue },
     EndOfBuffer = { fg = C.subtext0, bg = C.none },
-    FloatBorder = { fg = C.surface1, bg = C.base },
+    FloatBorder = { fg = C.surface1, bg = C.none },
     MatchParen = { fg = C.none, bg = C.matchParentBg, underline = false, bold = false },
   }
 end
