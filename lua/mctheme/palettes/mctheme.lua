@@ -30,7 +30,8 @@ local colors = {
   base = "#1e222a",
   mantle = "#181a1f",
   crust = "#1f1f25",
-  matchParentBg = "#003F25",
+  -- matchParentBg = "#003F25",
+  matchParentBg = "#FFFC00",
   -- icon colors
   c = "#519aba",
   css = "#61afef",
