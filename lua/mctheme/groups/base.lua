@@ -45,7 +45,7 @@ local function callback()
     SpellCap = { undercurl = true },
     SpellLocal = { undercurl = true },
     SpellRare = { undercurl = true },
-    StatusLine = { fg = C.text, bg = C.none },
+    StatusLine = { fg = C.text, bg = C.crust },
     StatusLineNC = { fg = C.subtext0, bg = C.none },
     StatusLineTerm = { fg = C.text, bg = C.overlay1 },
     StatusLineTermNC = { fg = C.overlay1, bg = C.none },
@@ -69,7 +69,8 @@ local function callback()
     EndOfBuffer = { fg = C.subtext0, bg = C.none },
     FloatBorder = { fg = C.surface1, bg = C.none },
     -- MatchParen = { fg = C.none, bg = C.matchParentBg, underline = false, bold = false },
-    MatchParen = { fg = C.mantle, bg = C.dark_orange, underline = true, bold = true },
+    MatchParen = { fg = C.mantle, bg = C.dark_orange, underline = false, bold = true },
+    -- MatchParen = { fg = C.none, bg = C.matchParentBg, underline = false, bold = true },
   }
 end
 
