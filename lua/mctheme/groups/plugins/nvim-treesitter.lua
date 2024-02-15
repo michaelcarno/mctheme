@@ -171,7 +171,7 @@ local function callback(opts)
 
     -- typescript
     ["@type.qualifier.typescript"] = { link = "Keyword" },
-    ["@constructor.typescript"] = { fg = C.purple },
+    ["@constructor.typescript"] = { link = "Keyword" },
 
     -- TSX (Typescript React)
     ["@constructor.tsx"] = { fg = C.purple },

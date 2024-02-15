@@ -1,5 +1,6 @@
 local colors = {
   none = "NONE",
+  white = "#FFFFFF",
   red = "#e06c75",
   darkred = "#460D12",
   blue = "#61afef",
@@ -30,8 +31,10 @@ local colors = {
   base = "#1e222a",
   mantle = "#181a1f",
   crust = "#1f1f25",
-  matchParentBg = "#003F25",
+  -- matchParentBg = "#003F25",
   -- matchParentBg = "#FFFC00",
+  -- matchParentBg = "#00FF00",
+  -- matchParentBg = "#FFFFFF",
   -- icon colors
   c = "#519aba",
   css = "#61afef",

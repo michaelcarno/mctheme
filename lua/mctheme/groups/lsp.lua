@@ -20,7 +20,7 @@ local function callback()
     LspFloatWinNormal = { fg = C.text, bg = C.crust },
     LspInlayHint = { link = "Comment" },
     LspReferenceRead = { fg = C.none, bg = C.surface1 },
-    LspReferenceText = { fg = C.none, bg = C.surface1 },
+    LspReferenceText = { fg = C.none, bg = C.surface1 }, -- highlighted text  on cursor on it
     LspReferenceWrite = { fg = C.none, bg = C.surface1 },
     ProviderTruncateLine = { fg = C.overlay0 },
     -- LSP Semantic Tokens
