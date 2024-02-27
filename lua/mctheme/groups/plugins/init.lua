@@ -23,5 +23,6 @@ return {
   ["noice.nvim"] = "noice",
   ["neogit"] = "neogit",
   ["nvim-bqf"] = "nvim-bqf",
-  ["telescope"] = "telescope"
+  ["telescope"] = "telescope",
+  ["vim-illuminate"] = "vim-illuminate",
 }
