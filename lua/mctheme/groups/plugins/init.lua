@@ -25,4 +25,5 @@ return {
   ["nvim-bqf"] = "nvim-bqf",
   ["telescope"] = "telescope",
   ["vim-illuminate"] = "vim-illuminate",
+  ["package-info.nvim"] = "package-info",
 }

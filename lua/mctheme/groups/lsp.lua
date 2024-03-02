@@ -14,7 +14,7 @@ local function callback()
     LspCodeLensSeparator = { fg = C.subtext1 },
     LspDiagnosticsFloatingError = { fg = C.dark_red },
     LspDiagnosticsFloatingHint = { fg = C.dark_yellow },
-    LspDiagnosticsFloatingInfor = { fg = C.overlay0 },
+    LspDiagnosticsFloatingInfo = { fg = C.overlay0 },
     LspDiagnosticsFloatingWarn = { fg = C.dark_orange },
     LspFloatWinBorder = { fg = C.overlay0 },
     LspFloatWinNormal = { fg = C.text, bg = C.crust },
@@ -25,7 +25,7 @@ local function callback()
     ProviderTruncateLine = { fg = C.overlay0 },
     -- LSP Semantic Tokens
     -- Ref: :help lsp-semantic-highlight
-    ['@lsp.type.decorator'] = { fg = C.yellow, bg = C.none },
+    ["@lsp.type.decorator"] = { fg = C.yellow, bg = C.none },
     ["@lsp.type.builtinType"] = { fg = C.green, bg = C.none },
     ["@lsp.type.keyword"] = { link = "Keyword" },
     ["@lsp.type.operator"] = { link = "Operator" },
