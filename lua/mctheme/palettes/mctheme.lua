@@ -1,6 +1,7 @@
 local colors = {
   none = "NONE",
   white = "#FFFFFF",
+  black = "#111111",
   red = "#e06c75",
   darkred = "#460D12",
   blue = "#61afef",

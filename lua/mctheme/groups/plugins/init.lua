@@ -11,7 +11,7 @@ return {
   ["nvim-cmp"] = "nvim-cmp",
   ["nvim-dap-ui"] = "nvim-dap-ui",
   ["nvim-notify"] = "nvim-notify",
-  ["nvim-tree.lua"] = "nvim-tree",
+  ["nvim-tree"] = "nvim-tree",
   ["nvim-treesitter"] = "nvim-treesitter",
   ["nvim-ts-rainbow"] = "nvim-ts-rainbow",
   ["nvim-ts-rainbow2"] = "nvim-ts-rainbow2",
@@ -26,4 +26,6 @@ return {
   ["telescope"] = "telescope",
   ["vim-illuminate"] = "vim-illuminate",
   ["package-info.nvim"] = "package-info",
+  ["delimited.nvim"] = "delimited",
 }
+--- [plugin-name?.nvim] = "filename.lua"
