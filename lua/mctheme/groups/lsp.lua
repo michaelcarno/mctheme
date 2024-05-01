@@ -18,7 +18,8 @@ local function callback()
     LspDiagnosticsFloatingWarn = { fg = C.dark_orange },
     LspFloatWinBorder = { fg = C.overlay0 },
     LspFloatWinNormal = { fg = C.text, bg = C.crust },
-    LspInlayHint = { link = "Comment" },
+    -- LspInlayHint = { link = "Comment" },
+    LspInlayHint = {fg = C.text, bg = C.overlay2},
     LspReferenceRead = { fg = C.none, bg = C.surface1 },
     LspReferenceText = { fg = C.none, bg = C.surface1 }, -- highlighted text  on cursor on it
     LspReferenceWrite = { fg = C.none, bg = C.surface1 },
