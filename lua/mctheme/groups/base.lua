@@ -19,7 +19,7 @@ local function callback()
     DiffAdded = { fg = C.none, bg = C.darkgreen },
     DiffRemoved = { fg = C.none, bg = C.darkred },
     DiffChanged = { fg = C.none, bg = C.darkyellow },
-    DiffOldFile = { fg = C.none, bg = C.orange },
+    DiffOldFile = { fg = C.black, bg = C.orange },
     DiffNewFile = { fg = C.none, bg = C.darkgreen },
     DiffFile = { fg = C.blue },
     DiffLine = { fg = C.overlay0 },
