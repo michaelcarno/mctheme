@@ -117,9 +117,9 @@ local function callback(opts)
     ["@diff.minus"] = { link = "DiffDelete" },
     ["@diff.delta"] = { link = "DiffChange" },
 
-    ["@tag"] = { fg = C.red },
+    ["@tag"] = { fg = C.light_purple },
     ["@tag.attribute"] = { fg = C.cyan },
-    ["@tag.delimiter"] = { fg = C.text },
+    ["@tag.delimiter"] = { fg = C.light_purple },
 
     -- None-highlighting captures
     -- ["@none"] = {},
