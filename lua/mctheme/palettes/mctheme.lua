@@ -13,6 +13,7 @@ local colors = {
   purple = "#c678dd",
   dark_purple = "#733D83",
   cyan = "#56b6c2",
+  dark_blue = "#5984fb",
   orange = "#d19a66",
   dark_red = "#ec5f67",
   light_blue = "#90c7f3",
