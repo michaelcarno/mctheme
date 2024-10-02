@@ -71,7 +71,7 @@ local function callback(opts)
     ["@keyword.directive.define"] = { link = "Keyword" },
 
     -- punctuation
-    ["@punctuation.delimiter"] = { fg = C.text },
+    ["@punctuation.delimiter"] = { fg = C.orange,bold=true },
     ["@punctuation.bracket"] = { fg = C.text },
     ["@punctuation.special"] = { fg = C.text },
 

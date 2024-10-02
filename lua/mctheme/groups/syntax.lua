@@ -25,9 +25,9 @@ local function callback()
     -- Statement
     Statement = { fg = C.purple, bg = C.none },                  -- any statement
     Conditional = { fg = C.purple, bg = C.none },                -- if, then, else, endif, switch, etc.
-    Repeat = { fg = C.purple, bg = C.none },                     -- for, do, while, etc.
+    Repeat = { fg = C.purple, bg = C.none},                     -- for, do, while, etc.
     Label = { fg = C.blue, bg = C.none },                        -- case, default, etc.
-    Operator = { fg = C.purple, bg = C.none },                   -- "sizeof", "+", "*", etc.
+    Operator = { fg = C.red, bg = C.none, bold=true },                   -- "sizeof", "+", "*", etc.
     Keyword = { fg = C.purple, bg = C.none },                    -- any other keyword
     Exception = { fg = C.purple, bg = C.none },                  -- try, catch, throw
     -- Preproc
