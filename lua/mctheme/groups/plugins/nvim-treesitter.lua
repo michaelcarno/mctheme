@@ -72,7 +72,7 @@ local function callback(opts)
 
     -- punctuation
     ["@punctuation.delimiter"] = { fg = C.orange,bold=true },
-    ["@punctuation.bracket"] = { fg = C.text },
+    ["@punctuation.bracket"] = { fg = C.text, bold=true },
     ["@punctuation.special"] = { fg = C.text },
 
     -- comment

@@ -49,13 +49,13 @@ local function callback()
     ["@variable.builtin"] = { fg = C.dark_blue, bg = C.none },
     ["@type.keyword"] = { link = "Keyword" },
     ["@type.operator"] = { link = "Operator" },
-    ["@type.operator.not"] = {fg=C.red},
+    ["@type.operator.not"] = { fg = C.red },
     ["@type.parameter"] = { link = "@parameter" },
     ["@type.property"] = { link = "@property" },
     ["@type.variable"] = { link = "@type.variable" },
-    ["@lsp.typemod.interface.defaultLibrary"] = {link="Type"},
+    ["@lsp.typemod.interface.defaultLibrary"] = { link = "Type" },
     -- ["@lsp.typemod.class.defaultLibrary"] = { fg = C.dark_blue, bg = C.none },
-    ["@lsp.typemod.class.defaultLibrary"] = {link="Type"},
+    ["@lsp.typemod.class.defaultLibrary"] = { link = "Type" },
     ["@lsp.typemod.variable.defaultLibrary"] = { fg = C.dark_blue, bg = C.none },
     ["@lsp.typemod.enum.defaultLibrary"] = { fg = C.dark_blue, bg = C.none },
     ["@lsp.typemod.function.defaultLibrary"] = { fg = C.dark_orange, bg = C.none },
@@ -75,15 +75,14 @@ local function callback()
     ["@lsp.type.enumMember.defaultLibrary"] = { link = "Constant" },
     ["@lsp.typemod.operator.injected"] = { link = "Operator" },
 
-
-    ["@punctuation.special"]= {link="Keyword"},
+    ["@punctuation.special"] = { link = "Keyword" },
 
     -- ["@lsp.mod.abstract"] = {link = ""}, --        Types and member functions that are abstract
     -- ["@lsp.mod.async"] = {link = ""}, -- Functions that are marked async
     -- ["@lsp.mod.declaration"] = {fg=C.red}, -- Declarations of symbols
     -- ["@lsp.mod.defaultLibrary "] = {link = ""}, -- Symbols that are part of the standard library
     -- ["@lsp.mod.definition"] = {link = ""}, -- Definitions of symbols, for example, in header files
-    ["@lsp.mod.deprecated"] = { strikethrough = true}, -- Symbols that should no longer be used
+    ["@lsp.mod.deprecated"] = { strikethrough = true }, -- Symbols that should no longer be used
     -- ["@lsp.mod.documentation"] = {link = ""}, -- Occurrences of symbols in documentation
     -- ["@lsp.mod.modification"] = {fg = C.red}, -- Variable references where the variable is assigned to
     -- ["@lsp.mod.readonly"] = {link = ""}, -- Readonly variables and member fields (constants)
@@ -119,6 +118,7 @@ local function callback()
     -- ["@lsp.typemod.method.defaultLibrary"] = "@function.builtin",
     -- ["@lsp.typemod.method.reference"] = "@function",
     -- ["@lsp.typemod.method.trait"] = "@function",
+    ["@lsp.mod.declaration"] = { bold = true },
     -- ["@lsp.typemod.operator.injected"] = "@operator",
     -- ["@lsp.typemod.selfKeyword.defaultLibrary"] = "@keyword",
     -- ["@lsp.typemod.string.injected"] = "@string",

@@ -68,11 +68,12 @@ local function callback()
     WarningMsg = { fg = C.yellow, bg = C.none },
     WildMenu = { fg = C.overlay2, bg = C.blue },
     EndOfBuffer = { fg = C.subtext0, bg = C.none },
-    NormalFloat= {bg = C.none},
+    NormalFloat = { bg = C.none },
     FloatBorder = { fg = C.surface1, bg = C.none },
     -- MatchParen = { fg = C.none, bg = C.matchParentBg, underline = false, bold = false },
     -- MatchParen = { fg = C.mantle, bg = C.dark_orange, underline = false, bold = true },
-    MatchParen = {  bg = C.dark_light_purple, underline = false, bold = true, italic = false },
+    MatchParen = { bg = C.dark_light_purple},
+    -- MatchParen = {  bg = C.yellow, fg= C.black },
   }
 end
 

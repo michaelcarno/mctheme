@@ -23,13 +23,13 @@ local function callback()
     Identifier = { fg = C.blue, bg = C.none },                   -- any variable name
     Function = { fg = C.dark_orange, bg = C.none },              -- function name (also: methods for classes)
     -- Statement
-    Statement = { fg = C.purple, bg = C.none },                  -- any statement
-    Conditional = { fg = C.purple, bg = C.none },                -- if, then, else, endif, switch, etc.
-    Repeat = { fg = C.purple, bg = C.none},                     -- for, do, while, etc.
-    Label = { fg = C.blue, bg = C.none },                        -- case, default, etc.
+    Statement = { fg = C.purple, bg = C.none, bold=true },                  -- any statement
+    Conditional = { fg = C.purple, bg = C.none, bold=true },                -- if, then, else, endif, switch, etc.
+    Repeat = { fg = C.purple, bg = C.none, bold=true},                     -- for, do, while, etc.
+    Label = { fg = C.blue, bg = C.none , bold=true},                        -- case, default, etc.
     Operator = { fg = C.red, bg = C.none, bold=true },                   -- "sizeof", "+", "*", etc.
-    Keyword = { fg = C.purple, bg = C.none },                    -- any other keyword
-    Exception = { fg = C.purple, bg = C.none },                  -- try, catch, throw
+    Keyword = { fg = C.purple, bg = C.none, bold=true },                    -- any other keyword
+    Exception = { fg = C.purple, bg = C.none , bold=true},                  -- try, catch, throw
     -- Preproc
     PreProc = { fg = C.yellow, bg = C.none },                    -- generic Preprocessor
     Include = { fg = C.purple, bg = C.none },                    -- preprocessor #include
