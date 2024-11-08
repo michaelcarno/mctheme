@@ -10,11 +10,12 @@ local function callback()
     CursorLineNr = { fg = C.text, bg = C.none },
     Conceal = { fg = C.subtext0, bg = C.none },
     CursorColumn = { fg = C.none, bg = C.overlay1 },
-    -- CursorLine = { fg = C.none, bg = C.surface0 },
-    CursorLine = { fg = C.none, bg = C.none },
+    CursorLine = { fg = C.none, bg = C.surface0 },
+    -- CursorLine = { fg = C.none, bg = C.none },
     Directory = { fg = C.blue, bg = C.none },
     DiffAdd = { fg = C.none, bg = C.darkgreen },
-    DiffChange = { fg = C.none, bg = C.darkyellow },
+    -- line with diff text
+    DiffChange = { fg = C.none, bg = C.surface0 },
     DiffDelete = { fg = C.none, bg = C.darkred },
     DiffText = { fg = C.none, bg = C.verydarkyellow },
     DiffAdded = { fg = C.none, bg = C.darkgreen },
@@ -72,8 +73,8 @@ local function callback()
     FloatBorder = { fg = C.surface1, bg = C.none },
     -- MatchParen = { fg = C.none, bg = C.matchParentBg, underline = false, bold = false },
     -- MatchParen = { fg = C.mantle, bg = C.dark_orange, underline = false, bold = true },
-    MatchParen = { bg = C.dark_light_purple},
-    -- MatchParen = {  bg = C.yellow, fg= C.black },
+    -- MatchParen = { bg = C.dark_light_purple},
+    MatchParen = {  bg = C.yellow, fg= C.black },
   }
 end
 

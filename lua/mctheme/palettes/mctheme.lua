@@ -5,6 +5,7 @@ local colors = {
   red = "#e06c75",
   darkred = "#460D12",
   blue = "#61afef",
+  not_dark_blue = "#419eec",
   green = "#98c379",
   darkgreen = "#182B18",
   yellow = "#e5c06b",

@@ -39,6 +39,7 @@ local function callback(opts)
 
     ["@attribute"] = { fg = C.yellow },
     ["@property"] = { link = "@variable..tin" },
+    -- ["@property"] = {fg= C.not_dark_blue},
 
     -- function
     ["@function"] = { link = "Function" },
