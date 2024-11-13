@@ -27,6 +27,7 @@ return {
   ["vim-illuminate"] = "vim-illuminate",
   ["package-info.nvim"] = "package-info",
   ["delimited.nvim"] = "delimited",
-  ["nvim_context_vt"] = "context-vt"
+  ["nvim_context_vt"] = "context-vt",
+  ["nvim-ufo"] = "nvim-ufo",
 }
 --- [plugin-name?.nvim] = "filename.lua"

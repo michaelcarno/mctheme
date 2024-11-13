@@ -28,7 +28,7 @@ local function callback()
     DiffIndexLine = { fg = C.cyan },
     ErrorMsg = { fg = C.red, bg = C.none },
     WinSeparator = { fg = C.overlay1, bg = C.none },
-    Folded = { fg = C.subtext0, bg = C.none },
+    Folded = { fg = C.subtext0, bg = "#342E4F" },
     FoldColumn = { fg = C.none, bg = C.none },
     IncSearch = { fg = C.yellow, bg = C.subtext0 },
     CurSearch = { link = "IncSearch" },
@@ -74,7 +74,7 @@ local function callback()
     -- MatchParen = { fg = C.none, bg = C.matchParentBg, underline = false, bold = false },
     -- MatchParen = { fg = C.mantle, bg = C.dark_orange, underline = false, bold = true },
     -- MatchParen = { bg = C.dark_light_purple},
-    MatchParen = {  bg = C.yellow, fg= C.black },
+    MatchParen = { bg = C.yellow, fg = C.black },
   }
 end
 
