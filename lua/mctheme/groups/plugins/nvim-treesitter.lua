@@ -72,8 +72,8 @@ local function callback(opts)
     ["@keyword.directive.define"] = { link = "Keyword" },
 
     -- punctuation
-    ["@punctuation.delimiter"] = { fg = C.orange,bold=true },
-    ["@punctuation.bracket"] = { fg = C.text, bold=true },
+    ["@punctuation.delimiter"] = { fg = C.orange, bold = true },
+    ["@punctuation.bracket"] = { fg = C.text, bold = true },
     ["@punctuation.special"] = { fg = C.text },
 
     -- comment
@@ -165,7 +165,9 @@ local function callback(opts)
     ["@function.macro.rust"] = { fg = C.red },
     ["@module.rust"] = { fg = C.purple },
     ["@punctuation.special.rust"] = { fg = C.purple },
-    ["@type.rust"] = { fg = C.cyan },
+    -- ["@type.rust"] = { fg = C.cyan },
+    ["@type.rust"] = { link = "Type" },
+    ["@lsp.type.enum.rust"] = { fg = C.cyan },
 
     -- toml
     ["@property.toml"] = { fg = C.red },
