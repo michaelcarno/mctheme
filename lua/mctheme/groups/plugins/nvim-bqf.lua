@@ -6,12 +6,11 @@ local function callback()
     -- BqfPreviewThumb = { bg = C.none, fg = C.text },
     -- BqfPreviewSbar = { fg = C.text, bg = C.none },
     -- BqfPreviewCursor = { fg = C.yellow, bg = C.mantle, bold = true },
-    -- BqfPreviewCursorLine = { fg = C.base, bg = C.purple, bold = true },
+    BqfPreviewCursorLine = { fg = C.base, bg = C.purple, bold = true },
   }
 end
 
 return callback
-
 
 --
 -- BqfPreviewFloat

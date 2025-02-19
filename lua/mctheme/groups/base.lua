@@ -3,7 +3,7 @@ local function callback()
     Normal = { fg = C.text, bg = C.base },
     NormalNC = { fg = C.text, bg = C.base },
     Title = { fg = C.cyan, bg = C.none },
-    Cursor = { fg = C.none, bg = C.none },
+    Cursor = { fg = C.black, bg = C.none },
     CursorIM = { link = "Cursor" },
     lCursor = { link = "Cursor" },
     ColorColumn = { fg = C.none, bg = C.overlay1 },
@@ -64,7 +64,8 @@ local function callback()
     TabLineSel = { fg = C.text, bg = C.none },
     TabLineFill = { fg = C.none, bg = C.overlay2 },
     Terminal = { fg = C.text, bg = C.overlay2 },
-    Visual = { fg = C.none, bg = C.surface1 },
+    -- Visual = { fg = C.none, bg = C.surface1 },
+    Visual = { fg = C.none, bg = C.surface0 },
     VisualNOS = { fg = C.surface1, bg = C.none },
     WarningMsg = { fg = C.yellow, bg = C.none },
     WildMenu = { fg = C.overlay2, bg = C.blue },
@@ -74,7 +75,7 @@ local function callback()
     -- MatchParen = { fg = C.none, bg = C.matchParentBg, underline = false, bold = false },
     -- MatchParen = { fg = C.mantle, bg = C.dark_orange, underline = false, bold = true },
     -- MatchParen = { bg = C.dark_light_purple},
-    MatchParen = { bg = C.yellow, fg = C.black },
+    MatchParen = { bg = C.white, fg = C.black, bold = true },
   }
 end
 

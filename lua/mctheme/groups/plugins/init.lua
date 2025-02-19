@@ -29,5 +29,6 @@ return {
   ["delimited.nvim"] = "delimited",
   ["nvim_context_vt"] = "context-vt",
   ["nvim-ufo"] = "nvim-ufo",
+  ["namu.nvim"] = "namu",
 }
 --- [plugin-name?.nvim] = "filename.lua"
